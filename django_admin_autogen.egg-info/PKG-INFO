@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: django-admin-autogen
+Version: 0.3.4
+Summary: A Django package to dynamically create admin classes. Including all fields in a model, or all models in an app.
+Author: Sean Chen
+Author-email: sean@appar.com.tw
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: Django>=3.0
+
 # Django Admin Autogen
 
 Dynamically register all fields of a model or all models in an app, in Django Admin.

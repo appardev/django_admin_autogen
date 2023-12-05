@@ -2,14 +2,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-autogen-admin',
-    version='0.1',
+    name='django-admin-autogen',
+    version='0.3.4',
     description='A Django package to dynamically create admin classes. Including all fields in a model, or all models in an app.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='Your Name',
+    author='Sean Chen',
     author_email='sean@appar.com.tw',
-    packages=find_packages(),
+    packages=['django_admin_autogen'],
     include_package_data=True,
     install_requires=[
         'Django>=3.0',  # Make sure to specify appropriate versions
