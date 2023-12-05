@@ -1,9 +1,13 @@
 Metadata-Version: 2.1
 Name: django-admin-autogen
-Version: 0.3.5
+Version: 0.3.6
 Summary: A Django package to dynamically create admin classes. Including all fields in a model, or all models in an app.
+Home-page: https://github.com/appardev/django_admin_autogen
 Author: Sean Chen
 Author-email: sean@appar.com.tw
+License: MIT
+Project-URL: Source, https://github.com/appardev/django_admin_autogen
+Project-URL: Tracker, https://github.com/appardev/django_admin_autogen/issues
 Classifier: Framework :: Django
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

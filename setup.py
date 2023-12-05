@@ -3,7 +3,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-admin-autogen',
-    version='0.3.5',
+    version='0.3.6',
+    url="https://github.com/appardev/django_admin_autogen",
+    project_urls={
+        'Source': 'https://github.com/appardev/django_admin_autogen',
+        'Tracker': 'https://github.com/appardev/django_admin_autogen/issues',
+    },
     description='A Django package to dynamically create admin classes. Including all fields in a model, or all models in an app.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -19,4 +24,5 @@ setup(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',  # Update with your chosen license
     ],
+    license='MIT',
 )
