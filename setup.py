@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-admin-autogen',
-    version='0.3.4',
+    version='0.3.5',
     description='A Django package to dynamically create admin classes. Including all fields in a model, or all models in an app.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
