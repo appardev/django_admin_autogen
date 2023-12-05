@@ -25,9 +25,7 @@ register_all_models_of_app
 
 ![Alt text](image.png)
 
-
-Register a model to Django Admin with all fields included
-
+### Register a model, with all fields included
 
 ```python
 from django_admin_autogen.autogen.admin import register_all_fields_of_model
@@ -56,6 +54,8 @@ class Media:
 
 fast_part_note_class.Media = Media
 ```
+
+### Register all models in an app
 
 Register all models of an app in Django Admin, with all of their fields included
 
