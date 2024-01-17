@@ -13,8 +13,8 @@ pip install django_admin_autogen
 Import
 
 ```python
-from django_admin_autogen.autogen.admin import register_all_fields_of_model
-from django_admin_autogen.autogen.admin import register_all_models_of_app
+from django_admin_autogen.admin import register_all_fields_of_model
+from django_admin_autogen.admin import register_all_models_of_app
 ```
 
 register_all_fields_of_model
